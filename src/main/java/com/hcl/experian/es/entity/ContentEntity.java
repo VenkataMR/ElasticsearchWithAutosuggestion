@@ -8,7 +8,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 //import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
-@Document(indexName = "re1", type = "experian")
+@Document(indexName = "re", type = "experian")
 public class ContentEntity {
 
 	//@Field() //type = FieldType.Text, index = FieldIndex.analyzed, store = true)
